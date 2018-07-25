@@ -1,4 +1,4 @@
 #!/bin/bash
-cd mp_demox/
+cd /code/mp_demox/
 
 dotnet run
