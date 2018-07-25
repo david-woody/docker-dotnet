@@ -4,4 +4,4 @@ RUN apt-get update && apt-get install -y \
 COPY start.sh /run
 WORKDIR /code
 CMD ["../run/start.sh"]
-EXPOSE 5000
+EXPOSE 80
