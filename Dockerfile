@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:sdk 
+FROM microsoft/dotnet:latest 
 RUN apt-get update && apt-get install -y \
     libunwind8
 COPY start.sh /run
